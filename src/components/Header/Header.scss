@@ -1,0 +1,32 @@
+@import "../../common/colors.scss";
+
+.header__head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(87,24,69, 0.75);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: fixed;
+    z-index: 2;
+
+    .header__head-logo p{
+        color: $font-primary;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .header__head-user{
+        width: 40px;
+        height: 40px;
+
+        img{
+            height: 100%;
+            width: 100%;
+            padding: 2px 2px;
+        }
+    }
+}
